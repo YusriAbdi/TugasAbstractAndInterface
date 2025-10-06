@@ -28,12 +28,12 @@ public class Main {
             System.out.println();
         }
 
-        System.out.println("\n======== Daftar Mawar ========");
+        System.out.println("\n======== Daftar Mawar izzat ========");
 
         Mawar[] warnaMawar = new Mawar[3];
-        warnaMawar[0] = new Mawar(Warna[1]);
-        warnaMawar[1] = new Mawar(Warna[2]);
-        warnaMawar[2] = new Mawar(Warna[5]);
+        warnaMawar[0] = new Mawar(Warna[0]);
+        warnaMawar[1] = new Mawar(Warna[3]);
+        warnaMawar[2] = new Mawar(Warna[4]);
 
         for (Mawar a : warnaMawar) {
             a.Mekar();
