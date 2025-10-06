@@ -13,5 +13,33 @@ public class Main {
         mawarMerah.Mekar();
         mawarMerah.Aromanya();
         mawarMerah.infoMawar();
+
+        System.out.println("\n======== Daftar Anggrek ========");
+
+        Anggrek[] warna = new Anggrek[3];
+        warna[0] = new Anggrek(Warna[1]);
+        warna[1] = new Anggrek(Warna[2]);
+        warna[2] = new Anggrek(Warna[5]);
+
+        for (Anggrek a : warna) {
+            a.Mekar();
+            a.Aromanya();
+            a.infoAnggrek();
+            System.out.println();
+        }
+
+        System.out.println("\n======== Daftar Mawar ========");
+
+        Mawar[] warnaMawar = new Mawar[3];
+        warnaMawar[0] = new Mawar(Warna[1]);
+        warnaMawar[1] = new Mawar(Warna[2]);
+        warnaMawar[2] = new Mawar(Warna[5]);
+
+        for (Mawar a : warnaMawar) {
+            a.Mekar();
+            a.Aromanya();
+            a.infoMawar();
+            System.out.println();
+        }
     }
 }
