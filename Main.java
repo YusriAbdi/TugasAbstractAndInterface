@@ -14,7 +14,7 @@ public class Main {
         mawarMerah.Aromanya();
         mawarMerah.infoMawar();
 
-        System.out.println("\n======== Daftar Anggrek ========");
+        System.out.println("\n======== Daftar Anggrek izzat ========");
 
         Anggrek[] warna = new Anggrek[3];
         warna[0] = new Anggrek(Warna[1]);
@@ -28,7 +28,7 @@ public class Main {
             System.out.println();
         }
 
-        System.out.println("\n======== Daftar Mawar ========");
+        System.out.println("\n======== Daftar Mawar  ========");
 
         Mawar[] warnaMawar = new Mawar[3];
         warnaMawar[0] = new Mawar(Warna[0]);
